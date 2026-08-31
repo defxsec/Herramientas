@@ -4,8 +4,8 @@ import socket
 import requests
 from concurrent.futures import ThreadPoolExecutor, as_completed
 
-INPUT_FILE = "dominios.txt"
-OUTPUT_FILE = "disponibles.txt"
+INPUT_FILE = "dominios.txt" #Lista de dominos
+OUTPUT_FILE = "disponibles.txt" #Lista de dominios emcontrador
 
 TIMEOUT = 5
 THREADS = 20
